@@ -6,7 +6,7 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div className="ui three item menu">
+      <div className="ui four item menu">
         <Link to="/" className="item">
           Home
         </Link>
@@ -15,6 +15,9 @@ class Header extends React.Component {
         </Link>
         <Link to="/color" className="item">
           O&amp;M Color
+        </Link>
+        <Link to="/contact" className="item">
+          Contact
         </Link>
       </div>
     );
