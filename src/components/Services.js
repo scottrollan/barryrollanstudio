@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import Cutting from './stuff/Cutting';
 import ServicesModal from './ServicesModal';
 import cutting from '../media/cutting.jpg';
 import coloring from '../media/coloring.jpg';

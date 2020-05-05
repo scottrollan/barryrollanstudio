@@ -1,0 +1,15 @@
+html,
+body {
+  background-color: #f2f2f2;
+  overflow-x: hidden;
+  color: #343a40;
+}
+
+.app {
+  min-height: 100vh;
+  margin-bottom: -200px;
+}
+
+.push {
+  height: 200px;
+}

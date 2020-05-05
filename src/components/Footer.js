@@ -1,42 +1,54 @@
 import React from 'react';
-// import styles from './AppointmentsBar.module.css';
+import styles from './Footer.module.css';
 
 const Footer = () => {
   return (
-    <footer>
-      <a
-        // className={styles.bar}
-        href="https://squareup.com/appointments/book/01469063-8cb8-4b57-9076-51933d0b1e9a/61SVRS8W8BGB2/services"
-        id="footer"
-      >
-        make an appointment
-      </a>
-      <style jsx>
-        {`
-          footer {
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            height: 80px;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            background-image: linear-gradient(90deg, #f04462, #c3122f, #f04462);
-          }
-          #footer {
-            align-self: center;
-            color: #f1f1f1;
-            font-size: 22px;
-            padding: 12px;
-            text-transform: uppercase;
-            font-weight: 600;
-          }
-          footer:hover {
-            background: transparent;
-          }
-        `}
-      </style>
-    </footer>
+    <div>
+      <div className={`ui container ${styles.infoLinks}`}>
+        <hr />
+        <div className="ul list">
+          <a
+            href="https://www.google.com/maps/place/Sola+Salon+Studios/@33.925096,-84.336078,15z/data=!4m5!3m4!1s0x0:0x7993ca9f24f031a4!8m2!3d33.925096!4d-84.336078"
+            className={`item ${styles.contactItem}`}
+          >
+            <i class={`map marker alternate icon ${styles.contactIcon}`}></i>
+            <p>Sola Salon Studios | Dunwoody | GA</p>
+          </a>
+
+          <a
+            href="mailto:barry@barryrollanstudio.com"
+            className={`item ${styles.contactItem}`}
+          >
+            <i class={`paper plane outline icon ${styles.contactIcon}`}></i>
+            <p>barry@barryrollanstudio.com</p>
+          </a>
+          <a href="sms:4042023562" className={`item ${styles.contactItem}`}>
+            <i class={`mobile alternate icon ${styles.contactIcon}`}></i>
+            <p>(404)202-3562</p>
+          </a>
+        </div>
+        <hr />
+      </div>
+      <div className={styles.buttonDiv}>
+        <a
+          className={styles.buttons}
+          href="https://www.holistichairtribe.com/?rfsn=3519242.805024&utm_source=refersion&utm_medium=affiliate&utm_campaign=3519242.805024"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Shop Products
+        </a>
+
+        <a
+          className={styles.buttons}
+          href="https://squareup.com/appointments/book/01469063-8cb8-4b57-9076-51933d0b1e9a/61SVRS8W8BGB2/services"
+          target="-blank"
+          rel="noopener noreferrer"
+        >
+          Book Appointments
+        </a>
+      </div>
+    </div>
   );
 };
 

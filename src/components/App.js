@@ -6,13 +6,13 @@ import Home from './Home';
 import Services from './Services';
 import Color from './Color';
 import Contact from './Contact';
-import './App.css';
+import styles from './App.module.css';
 
 class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="ui container">
+        <div className={`ui container ${styles.app}`}>
           <BrowserRouter>
             <Header />
             <Switch>
@@ -22,6 +22,7 @@ class App extends React.Component {
               <Route path="/contact" component={Contact}></Route>
             </Switch>
           </BrowserRouter>
+          <div className={styles.push}></div>
         </div>
         <Footer />
       </React.Fragment>

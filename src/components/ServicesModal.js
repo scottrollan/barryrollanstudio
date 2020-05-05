@@ -44,7 +44,7 @@ class ServicesModal extends Component {
                   <hr />
                   <p>
                     <strong>
-                      <em>{d.service}</em>
+                      <em>{d.service} </em>
                     </strong>
                     {d.descr}
                   </p>
