@@ -14,7 +14,9 @@ const Footer = () => {
             className={styles.contactItem}
             style={{ flexGrow: '1' }}
           >
-            <i class={`map marker alternate icon ${styles.contactIcon}`}></i>
+            <i
+              className={`map marker alternate icon ${styles.contactIcon}`}
+            ></i>
             <p>Sola Salon Studios | Dunwoody | GA</p>
           </a>
 
@@ -23,7 +25,7 @@ const Footer = () => {
             className={styles.contactItem}
             style={{ flexGrow: '1' }}
           >
-            <i class={`paper plane outline icon ${styles.contactIcon}`}></i>
+            <i className={`paper plane outline icon ${styles.contactIcon}`}></i>
             <p>barry@barryrollanstudio.com</p>
           </a>
 
@@ -32,7 +34,7 @@ const Footer = () => {
             className={styles.contactItem}
             style={{ flexGrow: '1' }}
           >
-            <i class={`mobile alternate icon ${styles.contactIcon}`}></i>
+            <i className={`mobile alternate icon ${styles.contactIcon}`}></i>
             <p>(404)202-3562</p>
           </a>
           <hr style={{ color: '#f2f2f2', width: '100%' }} />
