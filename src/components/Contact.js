@@ -3,23 +3,40 @@ import React from 'react';
 const Contact = () => {
   return (
     <React.Fragment>
-      <form className="ui form" name="contact" netlify>
+      <form
+        className="ui form"
+        name="contact"
+        method="post"
+        style={{ marginBottom: '20px' }}
+      >
         <div className="field">
-          <label>Name</label>
-          <input type="text" name="name" placeholder="Name" required />
+          <input type="hidden" name="form-name" value="contact" />
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Name" required />
+          </label>
         </div>
         <div className="field">
-          <label>E-mail</label>
-          <input type="text" name="email" placeholder="me@email.com" required />
+          <label>
+            E-mail
+            <input
+              type="email"
+              name="email"
+              placeholder="me@email.com"
+              required
+            />
+          </label>
         </div>
         <div className="field">
-          <label>Message</label>
-          <textarea
-            type="textarea"
-            name="message"
-            placeholder="Enter text..."
-            required
-          />
+          <label>
+            Message
+            <textarea
+              type="textarea"
+              name="message"
+              placeholder="Enter text..."
+              required
+            />
+          </label>
         </div>
 
         <button className="ui button" type="submit">

@@ -20,10 +20,16 @@
 
     <title>Barry Rollan Studio</title>
   </head>
-  <form name="contact" method="post" data-netlify="true">
-    <input type="hidden" name="name" />
-    <input type="hidden" name="email" />
-    <input type="hidden" name="message" />
+  <form
+    name="contact"
+    method="post"
+    data-netlify="true"
+    netlify-honeypot="bot-field"
+    hidden
+  >
+    <input type="text" name="name" />
+    <input type="email" name="email" />
+    <textarea name="message"></textarea>
   </form>
 
   <body>
