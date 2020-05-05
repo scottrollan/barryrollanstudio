@@ -2,12 +2,15 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <React.Fragment>
+    <div
+      className="ui container"
+      style={{ display: 'flex', justifyContent: 'center' }}
+    >
       <form
         className="ui form"
         name="contact"
         method="post"
-        style={{ marginBottom: '20px' }}
+        style={{ marginBottom: '20px', width: '100%', maxWidth: '640px' }}
       >
         <div className="field">
           <input type="hidden" name="form-name" value="contact" />
@@ -43,7 +46,7 @@ const Contact = () => {
           Submit
         </button>
       </form>
-    </React.Fragment>
+    </div>
   );
 };
 
