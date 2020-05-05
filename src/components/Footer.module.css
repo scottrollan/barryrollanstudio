@@ -24,9 +24,7 @@
   background-color: #ffffff;
   color: #343a40;
 }
-.contactItem > i {
-  padding-top: 4px;
-}
+
 .contactIcon + p {
   display: inline;
 }

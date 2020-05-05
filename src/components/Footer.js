@@ -9,8 +9,10 @@ const Footer = () => {
           <hr style={{ color: '#f2f2f2', width: '100%' }} />
           <a
             href="https://www.google.com/maps/place/Sola+Salon+Studios/@33.925096,-84.336078,15z/data=!4m5!3m4!1s0x0:0x7993ca9f24f031a4!8m2!3d33.925096!4d-84.336078"
+            target="_blank"
+            rel="noopener noreferrer"
             className={styles.contactItem}
-            style={{ flexGrow: '5' }}
+            style={{ flexGrow: '1' }}
           >
             <i class={`map marker alternate icon ${styles.contactIcon}`}></i>
             <p>Sola Salon Studios | Dunwoody | GA</p>
@@ -19,7 +21,7 @@ const Footer = () => {
           <a
             href="mailto:barry@barryrollanstudio.com"
             className={styles.contactItem}
-            style={{ flexGrow: '5' }}
+            style={{ flexGrow: '1' }}
           >
             <i class={`paper plane outline icon ${styles.contactIcon}`}></i>
             <p>barry@barryrollanstudio.com</p>
