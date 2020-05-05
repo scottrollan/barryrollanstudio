@@ -1,27 +1,31 @@
-.infoLinks {
-  height: 120px;
+.footer {
+  background-color: #343a40;
+  min-height: 200px;
+  max-height: 200px;
+  overflow-y: hidden;
+  position: sticky;
 }
-.list {
+
+.infoLinks {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  width: 100%;
+  height: 120px;
 }
 .contactItem {
   display: flex;
   justify-content: space-between;
-  color: #444444;
+  color: #f2f2f2;
   font-size: 22px;
   width: 100%;
   padding: 0 10%;
 }
+
 .contactItem:hover {
   background-color: #ffffff;
-  color: #b4b4b4;
+  color: #343a40;
 }
-.contactIcon {
-  transform: translateY(6px);
+.contactItem > i {
+  padding-top: 4px;
 }
 .contactIcon + p {
   display: inline;
@@ -39,34 +43,33 @@
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
-  color: whitesmoke;
-  background-color: #343a40;
-  border: 1px solid #343a40;
+  color: #343a40;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
   box-sizing: border-box;
   border-radius: 8px;
-  box-shadow: 0 5 10px #343a40;
+  box-shadow: 0 5 10px #f2f2f2;
   font-size: 24px;
 }
 
 .buttons:hover {
-  background-color: #f2f2f2;
-  color: #343a40;
-  border: 1px solid #343a40;
+  background-color: #343a40;
+  color: #f2f2f2;
+  border: 1px solid #f2f2f2;
 }
 
 @media screen and (max-width: 760px) {
   .contactItem {
     font-size: 20px;
   }
+
   .buttons {
     font-size: 20px;
   }
 }
 @media screen and (max-width: 610px) {
-  .contactItem {
-    font-size: 16px;
-  }
+  .contactItem,
   .buttons {
-    font-size: 14px;
+    font-size: 2.5vw;
   }
 }

@@ -6,16 +6,16 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div className="ui four item menu">
+      <div className="ui three item menu">
         <Link to="/" className="item">
           Home
         </Link>
         <Link to="/services" className="item">
           Services
         </Link>
-        <Link to="/color" className="item">
+        {/* <Link to="/color" className="item">
           O&amp;M Color
-        </Link>
+        </Link> */}
         <Link to="/contact" className="item">
           Contact
         </Link>
