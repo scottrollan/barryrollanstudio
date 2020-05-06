@@ -1,5 +1,5 @@
 .footer {
-  background-color: #343a40;
+  background-color: var(--dark-grey);
   min-height: 200px;
   max-height: 200px;
   overflow-y: hidden;
@@ -14,15 +14,15 @@
 .contactItem {
   display: flex;
   justify-content: space-between;
-  color: #f2f2f2;
+  color: var(--my-white);
   font-size: 22px;
   width: 100%;
   padding: 0 10%;
 }
 
 .contactItem:hover {
-  background-color: #ffffff;
-  color: #343a40;
+  background-color: var(--pure-white);
+  color: var(--dark-grey);
 }
 
 .contactIcon + p {
@@ -41,19 +41,19 @@
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
-  color: #343a40;
-  background-color: #f2f2f2;
-  border: 1px solid #f2f2f2;
+  color: var(--dark-grey);
+  background-color: var(--my-white);
+  border: 1px solid var(--my-white);
   box-sizing: border-box;
   border-radius: 8px;
-  box-shadow: 0 5 10px #f2f2f2;
+  box-shadow: 0 5 10px var(--my-white);
   font-size: 24px;
 }
 
 .buttons:hover {
-  background-color: #343a40;
-  color: #f2f2f2;
-  border: 1px solid #f2f2f2;
+  background-color: var(--dark-grey);
+  color: var(--my-white);
+  border: 1px solid var(--my-white);
 }
 
 @media screen and (max-width: 760px) {

@@ -1,7 +1,8 @@
 import React from 'react';
-import Oway from '../media/oway-banner.jpg';
-import Logo from '../media/o&mLogo.png';
-import OM from '../media/om_haircare.jpg';
+import owayTop from '../media/oway-banner-top.jpg';
+import oway from '../media/oway-banner.jpg';
+import logo from '../media/o&mLogo.png';
+import om from '../media/om_haircare.jpg';
 import styles from './Home.module.css';
 
 const Home = () => {
@@ -12,14 +13,13 @@ const Home = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img
-          src={Oway}
-          alt=""
-          className="home-child"
-          style={{ width: '100%' }}
-        />
+        {/* <div className={styles.crossfade}> */}
+        <img src={owayTop} alt="" className={styles.fader} />
+        <img src={oway} alt="" className={styles.solid} />
+
+        {/* </div> */}
       </a>
-      <img src={Logo} alt="" />
+      <img src={logo} alt="" />
       <p className={styles.blurb}>
         Healthy hair begins when it’s free from stress. Reduce the chemical
         overload. We challenge the artificial norms of professional haircare
@@ -27,7 +27,7 @@ const Home = () => {
         chemicals wherever possible while including natural extracts and active
         minerals that deliver real benefits.
       </p>
-      <img src={OM} alt="" className="home-child" style={{ width: '100%' }} />
+      <img src={om} alt="" style={{ width: '100%' }} />
     </div>
   );
 };

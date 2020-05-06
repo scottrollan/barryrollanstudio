@@ -1,6 +1,26 @@
 .page {
   text-align: center;
+  position: relative;
+  width: 100%;
 }
+
+.fader {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+.solid {
+  width: 100%;
+}
+.fader:hover {
+  width: 100%;
+  opacity: 0;
+}
+
 .blurb {
   font-size: 18px;
   margin-bottom: 75px;

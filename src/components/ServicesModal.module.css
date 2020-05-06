@@ -4,14 +4,14 @@
   top: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: var(--smoke-screen);
   z-index: 9999;
 }
 
 .content {
   margin: 10% 30%;
   padding: 30px;
-  background-color: #ffffff;
+  background-color: var(--pure-white);
 }
 
 .header {
