@@ -13,11 +13,8 @@ const Home = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        {/* <div className={styles.crossfade}> */}
         <img src={owayTop} alt="" className={styles.fader} />
         <img src={oway} alt="" className={styles.solid} />
-
-        {/* </div> */}
       </a>
       <img src={logo} alt="" />
       <p className={styles.blurb}>

@@ -6,7 +6,7 @@ const Footer = () => {
     <div className={styles.footer}>
       <div className="ui container">
         <div className={styles.infoLinks}>
-          <hr style={{ color: '#f2f2f2', width: '100%' }} />
+          <hr style={{ color: 'var(--my-white)', width: '100%' }} />
           <a
             href="https://www.google.com/maps/place/Sola+Salon+Studios/@33.925096,-84.336078,15z/data=!4m5!3m4!1s0x0:0x7993ca9f24f031a4!8m2!3d33.925096!4d-84.336078"
             target="_blank"

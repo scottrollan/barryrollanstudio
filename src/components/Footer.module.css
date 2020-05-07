@@ -65,9 +65,31 @@
     font-size: 20px;
   }
 }
-@media screen and (max-width: 610px) {
+
+@media screen and (max-width: 640px) {
+  .contactItem,
+  .butons {
+    font-size: 15px;
+  }
+}
+
+@media (pointer: coarse) {
+  .footer {
+    min-height: 30vh;
+    max-height: 30vh;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  .infoLinks {
+    height: 18vh;
+  }
+  .buttonDiv {
+    height: 12vh;
+  }
   .contactItem,
   .buttons {
-    font-size: 2.5vw;
+    font-size: 1.8vh;
   }
 }
