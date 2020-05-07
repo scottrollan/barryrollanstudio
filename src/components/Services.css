@@ -67,3 +67,18 @@
     align-self: flex-end;
   }
 }
+@media (pointer: coarse) {
+  .buttons-wrapper {
+    padding: 20px 0;
+    flex-direction: column;
+  }
+  #cuttingBtn {
+    align-self: flex-start;
+  }
+  #coloringBtn {
+    align-self: center;
+  }
+  #smoothingBtn {
+    align-self: flex-end;
+  }
+}
