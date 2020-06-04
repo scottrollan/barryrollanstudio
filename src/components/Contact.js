@@ -11,6 +11,7 @@ const Contact = () => {
           width: '100%',
           padding: '0 calc(50% - 320px',
         }}
+        action="/"
       >
         <div className="field">
           <input type="hidden" name="form-name" value="contact" />
@@ -21,19 +22,19 @@ const Contact = () => {
               name="name"
               placeholder="Name"
               required
-              style={{ height: '4.8vh' }}
+              style={{ height: '4.8vh', minHeight: '36px' }}
             />
           </label>
         </div>
         <div className="field">
-          <label style={{ fontSize: '1.8vh' }}>
+          <label style={{ fontSize: '1.8vh', height: 'auto' }}>
             E-mail
             <input
               type="email"
               name="email"
               placeholder="me@email.com"
               required
-              style={{ height: '4.8vh' }}
+              style={{ height: '4.8vh', minHeight: '36px' }}
             />
           </label>
         </div>
