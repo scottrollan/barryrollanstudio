@@ -1,0 +1,34 @@
+.nameEmailRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nameEmailRow > input {
+  width: 46%;
+  line-height: 1.6;
+  margin-bottom: 3vh;
+}
+
+textarea {
+  width: 100%;
+  margin-bottom: 3vh;
+}
+
+.contactButton {
+  transition: all 0.2s ease-out;
+}
+.contactButton:hover {
+  transform: translateY(2px);
+  transform: scale(0.95);
+  transition: translateY 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 760px) {
+  .nameEmailRow {
+    flex-direction: column;
+    /* justify-content: flex-start; */
+  }
+  .nameEmailRow > input {
+    width: 100%;
+  }
+}
