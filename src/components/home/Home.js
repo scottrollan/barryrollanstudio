@@ -1,8 +1,8 @@
 import React from 'react';
-import owayTop from '../media/oway-banner-top.jpg';
-import oway from '../media/oway-banner.jpg';
-import logo from '../media/o&mLogo.png';
-import om from '../media/om_haircare.jpg';
+import owayTop from '../../media/oway-banner-top.jpg';
+import oway from '../../media/oway-banner.jpg';
+import logo from '../../media/o&mLogo.png';
+import om from '../../media/om_haircare.jpg';
 import styles from './Home.module.css';
 
 const Home = () => {

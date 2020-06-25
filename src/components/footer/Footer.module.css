@@ -1,15 +1,13 @@
 .footer {
   background-color: var(--dark-grey);
-  min-height: 200px;
-  max-height: 200px;
+  padding: 1vh 2vw;
   overflow-y: hidden;
-  position: sticky;
 }
 
 .infoLinks {
   display: flex;
   flex-direction: column;
-  height: 120px;
+  height: auto;
 }
 .contactItem {
   display: flex;
@@ -18,6 +16,7 @@
   font-size: 22px;
   width: 100%;
   padding: 0 10%;
+  margin: 1vh 0;
 }
 
 .contactItem:hover {
@@ -35,24 +34,20 @@
   height: 80px;
 }
 .buttons {
-  max-height: 80px;
-  max-width: 40%;
-  padding: 12px;
   text-decoration: none;
+  line-height: 3;
   text-transform: uppercase;
-  text-align: center;
-  color: var(--dark-grey);
+  color: var(--dark-grey) !important;
   background-color: var(--my-white);
   border: 1px solid var(--my-white);
-  box-sizing: border-box;
-  border-radius: 8px;
   box-shadow: 0 5 10px var(--my-white);
-  font-size: 24px;
+  font-size: 14px;
 }
 
 .buttons:hover {
   background-color: var(--dark-grey);
-  color: var(--my-white);
+  text-decoration: none;
+  color: var(--my-white) !important;
   border: 1px solid var(--my-white);
 }
 
@@ -90,6 +85,6 @@
   }
   .contactItem,
   .buttons {
-    font-size: 1.8vh;
+    font-size: 12px;
   }
 }

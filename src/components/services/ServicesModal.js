@@ -17,7 +17,9 @@ class ServicesModal extends Component {
           className="button-container"
           onClick={() => this.setState({ show: true })}
         >
-          <p style={{ maxHeight: '100%' }}>{this.props.category}</p>
+          <p style={{ maxHeight: '100%', fontSize: '2vh' }}>
+            {this.props.category}
+          </p>
           <img src={src} alt="" />
         </div>
 

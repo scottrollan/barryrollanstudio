@@ -5,7 +5,8 @@ const AlertMessageSent = () => {
   return (
     <div id="alertMessageSent" className={styles.alertDiv}>
       <div className={[`${styles.alertMessageSent} ${styles.fadeIn}`]}>
-        <i className="far fa-paper-plane"></i> Your message has been sent.
+        <i className={`paper plane outline icon`}></i> Your message has been
+        sent.
         <div>Thank you!</div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import styles from './Contact.module.css';
-import AlertMessageSent from './popup/AlertMessageSent';
+import AlertMessageSent from '../popup/AlertMessageSent';
 import $ from 'jquery';
 
 function Contact() {

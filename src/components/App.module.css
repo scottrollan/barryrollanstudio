@@ -27,10 +27,7 @@ body {
   .app {
     max-height: 70vh;
   }
-  .menuItem {
-    font-size: 3.5vw;
-    height: 10vh;
-  }
+
   .push {
     height: 30vh;
   }

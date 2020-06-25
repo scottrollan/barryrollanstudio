@@ -1,0 +1,6 @@
+@media (pointer: coarse) {
+  .menuItem {
+    font-size: 3.5vw;
+    height: 10vh;
+  }
+}
