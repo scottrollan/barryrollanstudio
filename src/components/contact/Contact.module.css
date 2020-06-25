@@ -15,7 +15,10 @@ textarea {
 }
 
 .contactButton {
+  line-height: 3;
+  text-transform: uppercase;
   transition: all 0.2s ease-out;
+  width: 100%;
 }
 .contactButton:hover {
   transform: translateY(2px);

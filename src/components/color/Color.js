@@ -18,7 +18,7 @@ const omStyle = {
 };
 const Color = () => {
   return (
-    <div className="page" id="color">
+    <div style={{ minHeight: '100vh' }} id="color">
       <p style={omStyle}>
         <b>O&amp;M AMMONIA, RESORCINOL AND PPD-FREE COLOR</b>
       </p>

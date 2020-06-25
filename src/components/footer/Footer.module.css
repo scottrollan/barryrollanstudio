@@ -1,7 +1,10 @@
 .footer {
   background-color: var(--dark-grey);
   padding: 1vh 2vw;
-  overflow-y: hidden;
+  position: sticky;
+  position: -webkit-sticky;
+  bottom: 0;
+  z-index: 989;
 }
 
 .infoLinks {
@@ -31,17 +34,16 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 80px;
 }
 .buttons {
   text-decoration: none;
-  line-height: 3;
+  /* line-height: 3; */
   text-transform: uppercase;
-  color: var(--dark-grey) !important;
+  /* color: var(--dark-grey) !important;
   background-color: var(--my-white);
   border: 1px solid var(--my-white);
   box-shadow: 0 5 10px var(--my-white);
-  font-size: 14px;
+  font-size: 14px; */
 }
 
 .buttons:hover {
@@ -61,30 +63,9 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media (pointer: coarse) {
   .contactItem,
   .butons {
-    font-size: 15px;
-  }
-}
-
-@media (pointer: coarse) {
-  .footer {
-    min-height: 30vh;
-    max-height: 30vh;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-  }
-  .infoLinks {
-    height: 18vh;
-  }
-  .buttonDiv {
-    height: 12vh;
-  }
-  .contactItem,
-  .buttons {
-    font-size: 12px;
+    font-size: 10px;
   }
 }

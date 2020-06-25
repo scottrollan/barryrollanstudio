@@ -1,46 +1,42 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import services from './servicesArray';
+import { Button } from 'react-bootstrap';
+import styles from './Services.module.css';
+import './ServiceModal.css';
 
-import styles from './ServicesModal.module.css';
+const ServicesModal = (props) => {
+  const [show, setShow] = useState(false);
 
-class ServicesModal extends Component {
-  state = {
-    show: false,
-  };
+  const src = props.src;
 
-  render(props) {
-    const src = this.props.src;
-    console.log(src);
-    return (
-      <div className="serviceBtn" id={`${this.props.category}Btn`}>
-        <div
-          className="button-container"
-          onClick={() => this.setState({ show: true })}
+  return (
+    <div className={styles.serviceBtn} id={`${props.category}Btn`}>
+      <div className={styles.buttonContainer} onClick={() => setShow(true)}>
+        <p
+          style={{ maxHeight: '100%', fontSize: '2vh' }}
+          onClick={() => setShow(true)}
         >
-          <p style={{ maxHeight: '100%', fontSize: '2vh' }}>
-            {this.props.category}
-          </p>
-          <img src={src} alt="" />
-        </div>
+          {props.category}
+        </p>
+        <img src={src} alt="" />
+      </div>
 
+      {/* MODAL STARTS */}
+      <div onClick={() => setShow(false)}>
         <div
-          className={`modal ${styles.background}`}
-          onClick={() => this.setState({ show: false })}
+          className={styles.background}
           style={{
-            visibility: this.state.show ? 'visible' : 'hidden',
+            display: show === true ? 'flex' : 'none',
           }}
         >
           <div className={styles.content} onClick={(e) => e.stopPropagation()}>
-            <div className={`header ${styles.header}`}>
-              {this.props.title} Services
-            </div>
-            <div className="content">
+            <div className={styles.header}>{props.title} Services</div>
+            <div className={styles.content}>
               {services.data.map((d) => (
                 <div
                   key={d.id}
                   style={{
-                    display:
-                      d.category !== this.props.category ? 'none' : 'inherit',
+                    display: d.category !== props.category ? 'none' : 'inherit',
                   }}
                 >
                   <hr />
@@ -58,18 +54,15 @@ class ServicesModal extends Component {
             </div>
 
             <div>
-              <button
-                className="ui secondary"
-                onClick={() => this.setState({ show: false })}
-              >
+              <Button variant="secondary" onClick={() => setShow(false)}>
                 Close
-              </button>
+              </Button>
             </div>
           </div>
         </div>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default ServicesModal;

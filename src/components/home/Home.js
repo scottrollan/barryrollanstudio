@@ -16,7 +16,6 @@ const Home = () => {
         <img src={owayTop} alt="" className={styles.fader} />
         <img src={oway} alt="" className={styles.solid} />
       </a>
-      <img src={logo} alt="" />
       <p className={styles.blurb}>
         Healthy hair begins when it’s free from stress. Reduce the chemical
         overload. We challenge the artificial norms of professional haircare
@@ -24,6 +23,8 @@ const Home = () => {
         chemicals wherever possible while including natural extracts and active
         minerals that deliver real benefits.
       </p>
+      <img src={logo} alt="" />
+
       <img src={om} alt="" style={{ width: '100%' }} />
     </div>
   );

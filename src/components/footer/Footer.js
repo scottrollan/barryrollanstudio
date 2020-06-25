@@ -44,7 +44,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button variant="primary" className={styles.buttons}>
+            <Button variant="secondary" className={styles.buttons}>
               Shop Products
             </Button>
           </a>

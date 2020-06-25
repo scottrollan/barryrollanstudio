@@ -62,6 +62,7 @@ function Contact() {
       onSubmit={handleSubmit}
       action="/thank-you/"
       style={{
+        minHeight: '100vh',
         width: '100%',
         padding: '0 calc(50% - 320px',
       }}
@@ -69,9 +70,11 @@ function Contact() {
     >
       <input type="hidden" name="form-name" value="contact" />
       <AlertMessageSent />
-
+      <h2 style={{ color: 'var(--light-grey)', padding: '2vh 0' }}>
+        CONTACT BARRY
+      </h2>
       <div className={styles.nameEmailRow}>
-        <input
+        <Form.Control
           type="text"
           name="name"
           value={name}
@@ -80,7 +83,7 @@ function Contact() {
           required
         />
 
-        <input
+        <Form.Control
           type="email"
           name="email"
           value={email}
@@ -90,7 +93,8 @@ function Contact() {
         />
       </div>
 
-      <textarea
+      <Form.Control
+        as="textarea"
         name="message"
         value={message}
         onChange={handleChange}

@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+  #cuttingBtn {
+    align-self: flex-start;
+  }
+  #coloringBtn {
+    align-self: center;
+  }
+  #smoothingBtn {
+    align-self: flex-end;
+  }
+}
+@media (pointer: coarse) {
+  #buttonContainer p {
+    font-size: 3vw;
+  }
+  #cuttingBtn {
+    align-self: flex-start;
+  }
+  #coloringBtn {
+    align-self: center;
+  }
+  #smoothingBtn {
+    align-self: flex-end;
+  }
+}

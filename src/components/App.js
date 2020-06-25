@@ -11,8 +11,8 @@ import styles from './App.module.css';
 class App extends React.Component {
   render() {
     return (
-      <React.Fragment>
-        <div className={`ui container ${styles.app}`}>
+      <div className={styles.app}>
+        <div className="ui container">
           <Router>
             <Header />
             <Switch>
@@ -25,7 +25,7 @@ class App extends React.Component {
           <div className={styles.push}></div>
         </div>
         <Footer />
-      </React.Fragment>
+      </div>
     );
   }
 }
