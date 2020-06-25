@@ -58,14 +58,14 @@
     font-size: 20px;
   }
 
-  .buttons {
+  .button {
     font-size: 20px;
   }
 }
 
 @media (pointer: coarse) {
   .contactItem,
-  .butons {
-    font-size: 10px;
+  .button {
+    font-size: small;
   }
 }
