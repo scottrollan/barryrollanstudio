@@ -31,7 +31,7 @@ const ServicesModal = (props) => {
         >
           <div className={styles.content} onClick={(e) => e.stopPropagation()}>
             <div className={styles.header}>{props.title} Services</div>
-            <div className={styles.content}>
+            <div>
               {services.data.map((d) => (
                 <div
                   key={d.id}
@@ -51,10 +51,11 @@ const ServicesModal = (props) => {
                   </p>
                 </div>
               ))}
-            </div>
-
-            <div>
-              <Button variant="secondary" onClick={() => setShow(false)}>
+              <Button
+                variant="secondary"
+                onClick={() => setShow(false)}
+                style={{ marginTop: '2rem' }}
+              >
                 Close
               </Button>
             </div>

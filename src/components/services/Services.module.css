@@ -78,7 +78,9 @@
 
 @media screen and (max-width: 760px) {
   .content {
-    max-width: 96%;
+    max-width: calc(100% - 2rem);
+    max-height: calc(100% - 2rem);
+    overflow-y: scroll;
   }
 }
 @media only screen and (max-width: 600px) {
