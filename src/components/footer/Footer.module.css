@@ -50,7 +50,7 @@ div > a {
   border: 1px solid var(--my-white);
 }
 
-@media screen and (max-width: 760px) {
+/* @media screen and (max-width: 760px) {
   .contactItem {
     font-size: 20px;
   }
@@ -58,9 +58,9 @@ div > a {
   .button {
     font-size: 20px;
   }
-}
+} */
 
-@media (pointer: coarse) {
+/* @media (pointer: coarse) {
   @media screen and (max-width: 768px) {
     .buttonDiv {
       flex-direction: column;
@@ -72,9 +72,18 @@ div > a {
       font-size: 20px;
     }
   }
-}
+} */
 
 @media (pointer: coarse) {
+  .buttonDiv {
+    flex-direction: column;
+  }
+
+  .contactItem,
+  .button {
+    min-width: 60vw;
+    font-size: 20px;
+  }
   .footer {
     position: inherit;
   }
