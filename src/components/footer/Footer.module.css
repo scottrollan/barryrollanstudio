@@ -82,7 +82,7 @@ div > a {
   .contactItem,
   .button {
     min-width: 60vw;
-    font-size: 20px;
+    font-size: 4vw;
   }
   .footer {
     position: inherit;
