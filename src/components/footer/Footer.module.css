@@ -18,8 +18,6 @@
   color: var(--my-white);
   font-size: 22px;
   width: 100%;
-  padding: 0 10%;
-  margin: 1vh 0;
 }
 
 .contactItem:hover {
@@ -32,18 +30,17 @@
 }
 .buttonDiv {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
+
+div > a {
+  margin: 1vh 0;
+}
+
 .buttons {
   text-decoration: none;
-  /* line-height: 3; */
   text-transform: uppercase;
-  /* color: var(--dark-grey) !important;
-  background-color: var(--my-white);
-  border: 1px solid var(--my-white);
-  box-shadow: 0 5 10px var(--my-white);
-  font-size: 14px; */
 }
 
 .buttons:hover {
@@ -64,8 +61,14 @@
 }
 
 @media (pointer: coarse) {
-  .contactItem,
-  .button {
-    font-size: small;
+  @media screen and (max-width: 730px) {
+    .buttonDiv {
+      flex-direction: column;
+    }
+
+    .contactItem,
+    .button {
+      font-size: 14px;
+    }
   }
 }
