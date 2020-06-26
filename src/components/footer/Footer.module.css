@@ -61,14 +61,21 @@ div > a {
 }
 
 @media (pointer: coarse) {
-  @media screen and (max-width: 730px) {
+  @media screen and (max-width: 768px) {
     .buttonDiv {
       flex-direction: column;
     }
 
     .contactItem,
     .button {
-      font-size: 14px;
+      min-width: 60vw;
+      font-size: 20px;
     }
+  }
+}
+
+@media (pointer: coarse) {
+  .footer {
+    position: inherit;
   }
 }
