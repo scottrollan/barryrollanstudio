@@ -35,3 +35,19 @@ textarea {
     width: 100%;
   }
 }
+
+@media (pointer: coarse) {
+  @media screen and (max-width: 900px) {
+    .nameEmailRow {
+      flex-direction: column;
+    }
+    .nameEmailRow > input {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 760px) {
+    .input {
+      font-size: x-large;
+    }
+  }
+}

@@ -81,6 +81,7 @@ function Contact() {
           onChange={handleChange}
           placeholder="Your name"
           required
+          className={styles.input}
         />
 
         <Form.Control
@@ -90,6 +91,7 @@ function Contact() {
           onChange={handleChange}
           placeholder="Your email"
           required
+          className={styles.input}
         />
       </div>
 
@@ -101,6 +103,7 @@ function Contact() {
         rows="10"
         placeholder="Your message..."
         required
+        className={styles.input}
       />
       {/* </Form.Group> */}
       <Button
