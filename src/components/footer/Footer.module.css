@@ -38,12 +38,15 @@ div > a {
   margin: 1vh 0;
 }
 
-.buttons {
+.button {
   text-decoration: none;
   text-transform: uppercase;
+  font-size: x-large;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-.buttons:hover {
+.button:hover {
   background-color: var(--dark-grey);
   text-decoration: none;
   color: var(--my-white) !important;

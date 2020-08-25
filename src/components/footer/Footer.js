@@ -1,10 +1,13 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import $ from 'jquery';
+import OpenShopping from '../popup/OpenShopping';
 import styles from './Footer.module.css';
 
 const Footer = () => {
   return (
     <div className={styles.footer}>
+      <OpenShopping />
       <div className="ui container">
         <div className={styles.infoLinks}>
           <a
@@ -39,25 +42,21 @@ const Footer = () => {
           </a>
         </div>
         <div className={styles.buttonDiv}>
-          <a
-            href="https://www.holistichairtribe.com/?rfsn=3519242.805024&amp;utm_source=refersion&amp;utm_medium=affiliate&amp;utm_campaign=3519242.805024"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Button
+            variant="secondary"
+            className={styles.button}
+            onClick={() => $('#openShopping').css('display', 'flex')}
           >
-            <Button variant="secondary" className={styles.button}>
-              Shop Products
-            </Button>
-          </a>
+            Shop Products
+          </Button>
 
-          <a
+          <Button
             href="https://squareup.com/appointments/book/01469063-8cb8-4b57-9076-51933d0b1e9a/61SVRS8W8BGB2/services"
-            target="-blank"
-            rel="noopener noreferrer"
+            variant="secondary"
+            className={styles.button}
           >
-            <Button variant="secondary" className={styles.button}>
-              Book Appointments
-            </Button>
-          </a>
+            Book Appointments
+          </Button>
         </div>
       </div>
     </div>
