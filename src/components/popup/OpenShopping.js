@@ -13,11 +13,16 @@ const OpenShopping = () => {
     setSuccess('Copied!');
   };
 
+  const closePopup = () => {
+    $(`#openShopping`).hide();
+    setSuccess('Copy Code');
+  };
+
   return (
     <div
       id="openShopping"
       className={styles.alertDiv}
-      onClick={() => $('#openShopping').hide()}
+      onClick={() => closePopup()}
     >
       <div
         className={[`${styles.openShopping} ${styles.fadeIn}`]}
