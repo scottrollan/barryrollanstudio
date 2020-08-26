@@ -13,7 +13,7 @@ export default {
       category: 'coloring',
       descr:
         ', whether applied by foiling or with balayage, are placed around the face for a brightening or framing effect.',
-      price: 'start at $120',
+      price: 'start at $125',
       id: 'partialhighlights',
     },
     {
@@ -21,7 +21,7 @@ export default {
       category: 'coloring',
       descr:
         ' are like partial highlights but are placed throughout the top, crown and/or back of the head.',
-      price: 'start at $165',
+      price: 'start at $170',
       id: 'fullhighlights',
     },
     {
@@ -36,7 +36,7 @@ export default {
       service: 'Shampoo, Cut & Blowdry',
       category: 'cutting',
       descr: '',
-      price: '$65',
+      price: '$70',
       id: 'cutBlowdry',
     },
     {
@@ -51,7 +51,7 @@ export default {
       category: 'smoothing',
       descr:
         'is a customizable retexturizing treatment that smoothes frizz and softens curl.',
-      price: 'starts at $240',
+      price: 'starts at $245',
       id: 'brazilianBlowout',
     },
     {
@@ -59,7 +59,7 @@ export default {
       category: 'smoothing',
       descr:
         'is a completely non-toxic, aldehyde- and formaldehyde-free formulation that relaxes curl. The Reform process generally requires between 3 and 5 hours to complete, depending on length and density of hair. Contact Barry for more information or to schedule (scheduling not available online).',
-      price: 'starts at $285',
+      price: 'starts at $290',
       id: 'zerranReform',
     },
   ],
