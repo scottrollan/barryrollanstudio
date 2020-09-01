@@ -47,7 +47,7 @@ const OpenShopping = () => {
           {success}
         </Button>
         <Button
-          href="https://www.holistichairtribe.com/?rfsn=3519242.805024&amp;utm_source=refersion&amp;utm_medium=affiliate&amp;utm_campaign=3519242.805024"
+          href="https://www.holistichairtribe.com/discount/HHT2467?rfsn=3519242.805024&amp;utm_source=refersion&amp;utm_medium=affiliate&amp;utm_campaign=3519242.805024"
           variant="secondary"
           style={{ display: success === 'Copy Code' ? 'none' : 'inherit' }}
         >
