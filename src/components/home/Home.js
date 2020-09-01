@@ -2,7 +2,7 @@ import React from 'react';
 import owayTop from '../../media/oway-banner-top.jpg';
 import oway from '../../media/oway-banner.jpg';
 // import logo from '../../media/o&mLogo.png';
-import om from '../../media/om_haircare.jpg';
+// import om from '../../media/om_haircare.jpg';
 import styles from './Home.module.css';
 
 const Home = () => {
@@ -42,7 +42,7 @@ const Home = () => {
         <span> Monthly Online Sale</span>
         <div id="rfsn_img_68795"></div>
       </div>
-      <img src={om} alt="" style={{ padding: 0 }} />
+      {/* <img src={om} alt="" style={{ padding: 0 }} /> */}
     </div>
   );
 };
