@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../footer/Footer';
 import { Carousel } from 'react-bootstrap';
 import OmBanner from '../../media/omBanner.jpg';
 import Logo from '../../media/o&mLogo.png';
@@ -23,6 +24,27 @@ const Color = () => {
         <b>O&amp;M AMMONIA, RESORCINOL AND PPD-FREE COLOR</b>
       </p>
       <img src={OmBanner} alt="" style={{ width: '100%' }} />
+      <div
+        style={{
+          width: '100%',
+          display: 'flex',
+          flexDirection: 'column',
+          padding: '2rem 10%',
+          fontSize: '2rem',
+        }}
+      >
+        <p style={{ width: '100%', textAlign: 'center', marginTop: '0.5rem' }}>
+          O&amp;M CØR.color is the next generation in Ammonia, PPD and
+          Resorcinol-free professional hair colour.{' '}
+        </p>
+        <p style={{ width: '100%', textAlign: 'center', marginTop: '0.5rem' }}>
+          We call it CØR because colour is the core of our brand.{' '}
+        </p>
+        <p style={{ width: '100%', textAlign: 'center', marginTop: '0.5rem' }}>
+          The Ø at the heart represents our commitment to making the cleanest
+          colour in the world by eliminating harsh chemicals.
+        </p>
+      </div>
       <div id="jHeader">
         <div className="container">
           <p
@@ -69,15 +91,9 @@ const Color = () => {
           }}
         >
           <img src={Logo} alt="" />
-          <p>
-            Healthy hair begins when it’s free from stress. Reduce the chemical
-            overload. We challenge the artificial norms of professional haircare
-            with formulations that are both effective and gentle. Removing harsh
-            chemicals wherever possible while including natural extracts and
-            active minerals that deliver real benefits.
-          </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
