@@ -5,8 +5,16 @@ export default {
       category: 'coloring',
       descr:
         ' acheives gray coverage or a complete color change with one color, applied to the entire head.',
-      price: 'starts at $90',
+      price: 'starts at $95',
       id: 'allovercolor',
+    },
+    {
+      service: 'Face-Framing Highlights',
+      category: 'coloring',
+      descr:
+        ' can be added to All-Over Color services -- minimal highlighting around the parting.',
+      price: 'starts at $35',
+      id: 'faceFraming',
     },
     {
       service: 'Partial Highlights',
@@ -21,7 +29,7 @@ export default {
       category: 'coloring',
       descr:
         ' are like partial highlights but are placed throughout the top, crown and/or back of the head.',
-      price: 'start at $170',
+      price: 'start at $180',
       id: 'fullhighlights',
     },
     {
@@ -29,7 +37,7 @@ export default {
       category: 'coloring',
       descr:
         ' give a gradient of color from darker to lighter, from root to ends. They are generally applied via balayage.',
-      price: 'start at $165',
+      price: 'start at $180',
       id: 'ombrehighlights',
     },
     {
