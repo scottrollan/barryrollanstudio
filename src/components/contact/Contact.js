@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Footer from '../footer/Footer';
 import { Form, Button } from 'react-bootstrap';
 import styles from './Contact.module.css';
 import AlertMessageSent from '../popup/AlertMessageSent';
@@ -58,62 +59,68 @@ function Contact() {
   };
 
   return (
-    <Form
-      onSubmit={handleSubmit}
-      action="/thank-you/"
-      style={{
-        minHeight: '100vh',
-        width: '100%',
-        padding: '0 calc(50% - 320px',
-      }}
-      id="contactForm"
-    >
-      <input type="hidden" name="form-name" value="contact" />
-      <AlertMessageSent />
-      <h2 style={{ color: 'var(--light-grey)', padding: '2vh 0' }}>
-        CONTACT BARRY
-      </h2>
-      <div className={styles.nameEmailRow}>
-        <Form.Control
-          type="text"
-          name="name"
-          value={name}
-          onChange={handleChange}
-          placeholder="Your name"
-          required
-          className={styles.input}
-        />
+    <>
+      <div className={[`ui container`]}>
+        <Form
+          onSubmit={handleSubmit}
+          action="/thank-you/"
+          style={{
+            width: '100%',
+            padding: '0 calc(50% - 320px',
+          }}
+          id="contactForm"
+        >
+          <input type="hidden" name="form-name" value="contact" />
+          <AlertMessageSent />
+          <h2 style={{ color: 'var(--light-grey)', padding: '2vh 0' }}>
+            CONTACT BARRY
+          </h2>
+          <div className={styles.nameEmailRow}>
+            <Form.Control
+              type="text"
+              name="name"
+              value={name}
+              onChange={handleChange}
+              placeholder="Your name"
+              required
+              className={styles.input}
+            />
 
-        <Form.Control
-          type="email"
-          name="email"
-          value={email}
-          onChange={handleChange}
-          placeholder="Your email"
-          required
-          className={styles.input}
-        />
+            <Form.Control
+              type="email"
+              name="email"
+              value={email}
+              onChange={handleChange}
+              placeholder="Your email"
+              required
+              className={styles.input}
+            />
+          </div>
+
+          <Form.Control
+            as="textarea"
+            name="message"
+            value={message}
+            onChange={handleChange}
+            rows="10"
+            placeholder="Your message..."
+            required
+            className={styles.input}
+          />
+          {/* </Form.Group> */}
+          <Button
+            variant="secondary"
+            className={styles.contactButton}
+            type="submit"
+          >
+            Send
+          </Button>
+        </Form>
       </div>
-
-      <Form.Control
-        as="textarea"
-        name="message"
-        value={message}
-        onChange={handleChange}
-        rows="10"
-        placeholder="Your message..."
-        required
-        className={styles.input}
-      />
-      {/* </Form.Group> */}
-      <Button
-        variant="secondary"
-        className={styles.contactButton}
-        type="submit"
-      >
-        Send
-      </Button>
-    </Form>
+      <div className={styles.footerWrapper}>
+        <Footer />
+      </div>
+    </>
   );
 }
 export default Contact;

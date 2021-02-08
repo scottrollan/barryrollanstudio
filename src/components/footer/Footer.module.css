@@ -1,9 +1,7 @@
 .footer {
   background-color: var(--dark-grey);
   padding: 1vh 2vw;
-  position: sticky;
-  position: -webkit-sticky;
-  bottom: 0;
+  margin-top: 3rem;
   z-index: 989;
 }
 
@@ -87,7 +85,7 @@ div > a {
     min-width: 60vw;
     font-size: 4vw;
   }
-  .footer {
+  /* .footer {
     position: inherit;
-  }
+  } */
 }

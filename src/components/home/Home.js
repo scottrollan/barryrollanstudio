@@ -1,48 +1,32 @@
 import React from 'react';
+import Footer from '../footer/Footer';
 import owayTop from '../../media/oway-banner-top.jpg';
 import oway from '../../media/oway-banner.jpg';
-// import logo from '../../media/o&mLogo.png';
-// import om from '../../media/om_haircare.jpg';
 import styles from './Home.module.css';
 
 const Home = () => {
   return (
     <div className={styles.page}>
-      <a
-        href="https://www.oway.it/en/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img
-          src={owayTop}
-          alt=""
-          className={styles.fader}
-          style={{ width: '100%' }}
-        />
-        <img
-          src={oway}
-          alt=""
-          className={styles.solid}
-          style={{ padding: 0 }}
-        />
-      </a>
-      <p className={styles.blurb}>
-        Healthy hair begins when it’s free from stress. Reduce the chemical
-        overload. We challenge the artificial norms of professional haircare
-        with formulations that are both effective and gentle. Removing harsh
-        chemicals wherever possible while including natural extracts and active
-        minerals that deliver real benefits.
-      </p>
-      {/* <img src={logo} alt="" style={{ padding: 0 }} /> */}
-      <div className={styles.saleWrapper}>
-        <span> Weekly Online Sale</span>
-        <div id="rfsn_img_70361"></div>
+      <div className="ui container" style={{ maxWidth: '900px !important' }}>
+        <h1 className={styles.fadeDown}>Barry Rollan Salon Studio</h1>
+        <p className={[`${styles.blurb} ${styles.fadeUp}`]}>
+          Healthy hair begins when it’s free from stress. Reduce the chemical
+          overload. We challenge the artificial norms of professional haircare
+          with formulations that are both effective and gentle. Removing harsh
+          chemicals wherever possible while including natural extracts and
+          active minerals that deliver real benefits.
+        </p>
+        <a
+          href="https://www.oway.it/en/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.imageWrapper}
+        >
+          <img src={owayTop} alt="" className={styles.fader} />
+          <img src={oway} alt="" className={styles.solid} />
+        </a>
       </div>
-      <div className={styles.saleWrapper}>
-        <span> Monthly Online Sale</span>
-        <div id="rfsn_img_68795"></div>
-      </div>
-      {/* <img src={om} alt="" style={{ padding: 0 }} /> */}
+      <Footer />
     </div>
   );
 };

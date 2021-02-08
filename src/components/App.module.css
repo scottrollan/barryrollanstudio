@@ -18,16 +18,7 @@ body {
 }
 
 .app {
-  min-height: 100vh;
   font-family: 'Rubik', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif !important;
-}
-
-.push {
-  height: 4rem;
-}
-@media (pointer: coarse) {
-  .push {
-    height: 3vh;
-  }
+  min-height: 100vh;
 }

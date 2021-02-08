@@ -26,6 +26,13 @@ textarea {
   transition: translateY 0.2s ease-in-out;
 }
 
+.footerWrapper {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 @media screen and (max-width: 760px) {
   .nameEmailRow {
     flex-direction: column;
@@ -43,6 +50,9 @@ textarea {
     }
     .nameEmailRow > input {
       width: 100%;
+    }
+    .footerWrapper {
+      position: inherit;
     }
   }
   @media screen and (max-width: 760px) {

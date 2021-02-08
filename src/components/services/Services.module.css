@@ -1,5 +1,13 @@
+.page {
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+}
 .buttonsWrapper {
   display: flex;
+  width: 80%;
+
   flex-direction: row;
   justify-content: space-around;
   max-width: 900px;
@@ -74,6 +82,14 @@
   font-size: 30px;
   padding-bottom: 10px;
   color: #c3122f;
+}
+
+.footerWrapper {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 @media screen and (max-width: 760px) {
