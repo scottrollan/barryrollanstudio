@@ -72,7 +72,7 @@ function Contact() {
         >
           <input type="hidden" name="form-name" value="contact" />
           <AlertMessageSent />
-          <h2 style={{ color: 'var(--light-grey)', padding: '2vh 0' }}>
+          <h2 style={{ color: 'var(--accent-dark)', padding: '2vh 0' }}>
             CONTACT BARRY
           </h2>
           <div className={styles.nameEmailRow}>

@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--dark-grey);
+  background-color: var(--accent-dark);
   padding: 1vh 2vw;
   margin-top: 3rem;
   z-index: 989;
@@ -9,6 +9,10 @@
   display: flex;
   flex-direction: column;
   height: auto;
+  color: var(--white);
+}
+.infoLinks:hover {
+  text-decoration: none;
 }
 .contactItem {
   display: flex;
@@ -20,7 +24,7 @@
 
 .contactItem:hover {
   background-color: var(--pure-white);
-  color: var(--dark-grey);
+  color: var(--accent-dark);
 }
 
 .contactIcon + p {
@@ -37,6 +41,8 @@ div > a {
 }
 
 .button {
+  background-color: var(--white);
+  color: var(--black);
   text-decoration: none;
   text-transform: uppercase;
   font-size: x-large;
@@ -45,10 +51,11 @@ div > a {
 }
 
 .button:hover {
-  background-color: var(--dark-grey);
+  background-color: var(--accent-light);
+  color: var(--white);
   text-decoration: none;
   color: var(--my-white) !important;
-  border: 1px solid var(--my-white);
+  border: 1px solid var(--accent-light);
 }
 
 /* @media screen and (max-width: 760px) {

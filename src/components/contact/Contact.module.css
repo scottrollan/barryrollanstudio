@@ -19,6 +19,8 @@ textarea {
   text-transform: uppercase;
   transition: all 0.2s ease-out;
   width: 100%;
+  background-color: var(--accent-light);
+  color: var(--accent-dark);
 }
 .contactButton:hover {
   transform: translateY(2px);
