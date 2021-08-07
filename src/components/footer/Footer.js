@@ -1,13 +1,10 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import $ from 'jquery';
-import OpenShopping from '../popup/OpenShopping';
 import styles from './Footer.module.css';
 
 const Footer = () => {
   return (
     <div className={styles.footer}>
-      <OpenShopping />
       <div className="ui container">
         <div className={styles.infoLinks}>
           <a
@@ -43,9 +40,9 @@ const Footer = () => {
         </div>
         <div className={styles.buttonDiv}>
           <Button
+            href="https://blissful-heyrovsky-c07cbc.netlify.app/"
             variant="secondary"
             className={styles.button}
-            onClick={() => $('#openShopping').css('display', 'flex')}
           >
             Shop Products
           </Button>
