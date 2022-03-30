@@ -38,7 +38,7 @@ const Footer = () => {
             <p>(404)202-3562</p>
           </a>
         </div>
-        <div className={styles.buttonDiv}>
+        {/* <div className={styles.buttonDiv}>
           <Button
             href="https://blissful-heyrovsky-c07cbc.netlify.app/"
             variant="secondary"
@@ -54,7 +54,7 @@ const Footer = () => {
           >
             Book Appointments
           </Button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
