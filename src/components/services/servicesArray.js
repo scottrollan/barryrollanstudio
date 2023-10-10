@@ -13,7 +13,7 @@ export default {
       category: 'coloring',
       descr:
         ' can be added to All-Over Color services -- minimal highlighting around the parting.',
-      price: 'starts at $35',
+      price: 'starts at $55',
       id: 'faceFraming',
     },
     {
@@ -29,7 +29,7 @@ export default {
       category: 'coloring',
       descr:
         ' are like partial highlights but are placed throughout the top, crown and/or back of the head.',
-      price: 'start at $180',
+      price: 'start at $195',
       id: 'fullhighlights',
     },
     {
@@ -61,6 +61,13 @@ export default {
         'is a customizable retexturizing treatment that smoothes frizz and softens curl.',
       price: 'starts at $245',
       id: 'brazilianBlowout',
+    },
+    {
+      service: 'QiQi Hair Treatment',
+      category: 'smoothing',
+      descr: 'l',
+      price: 'starts at $350',
+      id: 'qiqi',
     },
     {
       service: 'Zerran Reform',
