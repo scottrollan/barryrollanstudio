@@ -59,7 +59,7 @@ export default {
       category: 'smoothing',
       descr:
         'is a customizable retexturizing treatment that smoothes frizz and softens curl.',
-      price: 'starts at $245',
+      price: 'starts at $250',
       id: 'brazilianBlowout',
     },
     {
