@@ -65,7 +65,7 @@ export default {
     {
       service: 'QiQi Hair Treatment',
       category: 'smoothing',
-      descr: 'l',
+      descr: ' is a costomizable, <i>permanent</i> hair smoothing treatment.',
       price: 'starts at $350',
       id: 'qiqi',
     },
