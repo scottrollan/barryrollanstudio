@@ -44,7 +44,7 @@ export default {
       service: 'Shampoo, Cut & Blowdry',
       category: 'cutting',
       descr: '',
-      price: '$70',
+      price: '$75',
       id: 'cutBlowdry',
     },
     {
