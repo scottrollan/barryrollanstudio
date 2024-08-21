@@ -7,15 +7,14 @@ export default {
       category: 'coloring',
       descr:
         ' acheives gray coverage or a complete color change with one color, applied to the entire head.',
-      price: 'starts at $95',
+      price: 'starts at $105',
       id: 'allovercolor',
     },
     {
-      service: 'Face-Framing Highlights',
+      service: 'All-Over Color with Highlights',
       category: 'coloring',
-      descr:
-        ' can be added to All-Over Color services -- minimal highlighting around the parting.',
-      price: 'starts at $55',
+      descr: ' All-Over Color services with face-framing highlights.',
+      price: 'starts at $175',
       id: 'faceFraming',
     },
     {
@@ -23,7 +22,7 @@ export default {
       category: 'coloring',
       descr:
         ', whether applied by foiling or with balayage, are placed around the face for a brightening or framing effect.',
-      price: 'start at $125',
+      price: 'start at $135',
       id: 'partialhighlights',
     },
     {
@@ -35,25 +34,25 @@ export default {
       id: 'fullhighlights',
     },
     {
-      service: 'Ombre Highlights',
+      service: 'Balayage Highlights',
       category: 'coloring',
       descr:
-        ' give a gradient of color from darker to lighter, from root to ends. They are generally applied via balayage.',
-      price: 'start at $180',
+        ' give a gradient of color from darker to lighter, from root to ends.',
+      price: 'start at $225',
       id: 'ombrehighlights',
     },
     {
       service: 'Shampoo, Cut & Blowdry',
       category: 'cutting',
       descr: '',
-      price: '$75',
+      price: '$80',
       id: 'cutBlowdry',
     },
     {
       service: "Men's Short Haircut",
       category: 'cutting',
       descr: '',
-      price: '$45',
+      price: '$48',
       id: 'mensCut',
     },
     {
@@ -61,7 +60,7 @@ export default {
       category: 'smoothing',
       descr:
         'is a customizable retexturizing treatment that smoothes frizz and softens curl.',
-      price: 'starts at $250',
+      price: 'starts at $265',
       id: 'brazilianBlowout',
     },
     {
