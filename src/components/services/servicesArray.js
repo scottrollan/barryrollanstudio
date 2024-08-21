@@ -11,11 +11,18 @@ export default {
       id: 'allovercolor',
     },
     {
-      service: 'All-Over Color with Highlights',
+      service: 'All-Over Color with Partial Highlights',
       category: 'coloring',
-      descr: ' All-Over Color services with face-framing highlights.',
+      descr: '',
       price: 'starts at $175',
       id: 'faceFraming',
+    },
+    {
+      service: 'All-Over Color plus Gloss/Toner',
+      category: 'coloring',
+      descr: ' .',
+      price: 'starts at $125',
+      id: 'allOverColorPlusGlossToner',
     },
     {
       service: 'Partial Highlights',
