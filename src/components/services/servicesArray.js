@@ -43,14 +43,6 @@ export default {
       id: 'fullhighlights',
     },
     {
-      service: 'Balayage Highlights',
-      category: 'coloring',
-      descr:
-        ' give a gradient of color from darker to lighter, from root to ends.',
-      price: 'start at $225',
-      id: 'ombrehighlights',
-    },
-    {
       service: 'Shampoo, Cut & Blowdry',
       category: 'cutting',
       descr: '',
