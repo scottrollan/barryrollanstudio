@@ -11,16 +11,10 @@ export default {
       id: 'allovercolor',
     },
     {
-      service: 'All-Over Color with Partial Highlights',
-      category: 'coloring',
-      descr: '',
-      price: 'starts at $175',
-      id: 'faceFraming',
-    },
-    {
       service: 'All-Over Color plus Gloss/Toner',
       category: 'coloring',
-      descr: ' .',
+      descr:
+        '- add extra shine and/or a color change to the lengths of your hair after an all-over color service.',
       price: 'starts at $125',
       id: 'allOverColorPlusGlossToner',
     },
@@ -28,9 +22,17 @@ export default {
       service: 'Partial Highlights',
       category: 'coloring',
       descr:
-        ', whether applied by foiling or with balayage, are placed around the face for a brightening or framing effect.',
+        '- whether applied by foiling or with balayage, are placed around the face for a brightening or framing effect.',
       price: 'start at $135',
       id: 'partialhighlights',
+    },
+    {
+      service: 'All-Over Color with Partial Highlighting',
+      category: 'coloring',
+      descr:
+        '- color with anything from a few baby-lights to a partial highlight ',
+      price: '$140 - $175',
+      id: 'faceFraming',
     },
     {
       service: 'Full Highlights',
