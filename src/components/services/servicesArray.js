@@ -56,6 +56,14 @@ export default {
       price: '$48',
       id: 'mensCut',
     },
+    ,
+    {
+      service: 'Shampoo & Blowdry/Style',
+      category: 'cutting',
+      descr: '',
+      price: '$52',
+      id: 'styleOnly',
+    },
     {
       service: 'Brazilian Blowout',
       category: 'smoothing',
