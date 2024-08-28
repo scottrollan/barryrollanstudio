@@ -56,7 +56,6 @@ export default {
       price: '$48',
       id: 'mensCut',
     },
-    ,
     {
       service: 'Shampoo & Blowdry/Style',
       category: 'cutting',
