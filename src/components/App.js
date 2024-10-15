@@ -13,17 +13,13 @@ class App extends React.Component {
       <div className={styles.app}>
         <Router>
           <Header />
-          {/* <div
-            className="ui container"
-            style={{ maxWidth: '900px !important' }}
-          > */}
+
           <Switch>
             <Route path="/" exact component={Home}></Route>
             <Route path="/services" component={Services}></Route>
             <Route path="/color" component={Color}></Route>
             <Route path="/contact" component={Contact}></Route>
           </Switch>
-          {/* </div> */}
         </Router>
       </div>
     );
