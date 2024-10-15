@@ -26,7 +26,7 @@ const Home = () => {
             Book Appointments
           </Button>
         </div>
-        <h1 className={styles.fadeDown}>Barry Rollan Salon</h1>
+        <h1 className={styles.fadeDown}>Barry Rollan Studio</h1>
         <p className={[`${styles.blurb} ${styles.fadeUp}`]}>
           Healthy hair begins when it’s free from stress. Reduce the chemical
           overload. We challenge the artificial norms of professional haircare
