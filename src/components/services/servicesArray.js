@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default {
+const servicesArray = {
   data: [
     {
       service: 'All-Over Color',
@@ -93,3 +93,5 @@ export default {
     },
   ],
 };
+
+export default servicesArray;
