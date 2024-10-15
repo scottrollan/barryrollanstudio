@@ -17,9 +17,9 @@ class Header extends React.Component {
         <Link to="/color" className={`item ${styles.menuItem}`}>
           O&amp;M Color
         </Link>
-        <Link to="/contact" className={`item ${styles.menuItem}`}>
+        {/* <Link to="/contact" className={`item ${styles.menuItem}`}>
           CONTACT
-        </Link>
+        </Link> */}
       </div>
     );
   }
