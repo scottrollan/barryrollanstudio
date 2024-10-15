@@ -19,6 +19,12 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },    
+  "build": {
+    "command": "npm run build",
+    "commandOrigin": "ui",
+    "publish": "/opt/build/repo/build",
+    "publishOrigin": "ui"
   },
   "eslintConfig": {
     "extends": [
