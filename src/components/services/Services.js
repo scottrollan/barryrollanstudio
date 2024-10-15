@@ -12,7 +12,9 @@ class Services extends Component {
       <div className={styles.page} id="services">
         <div
           className={[`${styles.hide} ${styles.buttonsWrapper}`]}
-          style={{ maxWidth: '900px !important' }}
+          style={{
+            maxWidth: '900px !important',
+          }}
         >
           <ServicesModal category="cutting" title="Cutting" src={cutting} />
           <ServicesModal category="coloring" title="Color" src={coloring} />

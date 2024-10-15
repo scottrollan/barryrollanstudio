@@ -6,7 +6,6 @@
 .buttonDiv {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   max-width: 100vw;
   padding: 0;
   margin: 0;
@@ -22,8 +21,9 @@
   text-decoration: none;
   text-transform: uppercase;
   font-size: x-large;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: 1px solid var(--black);
 }
 
 .button:hover {
